@@ -1,2 +1,2 @@
-add_lunch_combo aicp_z3-eng
-add_lunch_combo aicp_z3-userdebug
+add_lunch_combo aosp_z3-eng
+add_lunch_combo aosp_z3-userdebug
