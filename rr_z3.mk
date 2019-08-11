@@ -1,5 +1,5 @@
-# Inherit AOSP product configuration
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit RR product configuration
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 $(call inherit-product, device/sony/z3/full_z3.mk)
 
@@ -8,5 +8,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="leo-user N NPD56N 1000106 re
 
 BUILD_FINGERPRINT := Sony/leo/leo:N/NPD56N/1000106:user/release-keys
 
-PRODUCT_NAME := aosp_z3
+PRODUCT_NAME := rr_z3
 PRODUCT_DEVICE := z3
